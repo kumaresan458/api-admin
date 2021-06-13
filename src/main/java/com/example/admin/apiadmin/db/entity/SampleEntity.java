@@ -19,7 +19,7 @@ import lombok.NoArgsConstructor;
 @Table(name = "SAMPLE_ENTITY")
 public class SampleEntity {
 
-	@Id
+	@Id  
 	@Column(name = "ID")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@SequenceGenerator(name = "sa_seq", allocationSize = 10)
