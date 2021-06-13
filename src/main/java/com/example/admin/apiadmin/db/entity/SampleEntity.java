@@ -24,7 +24,7 @@ public class SampleEntity {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@SequenceGenerator(name = "sa_seq", allocationSize = 10)
 	private Long id;
-
+  
 	@Column(name = "NAME")
 	private String name;
 
